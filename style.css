@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: solid;
+  border-radius: 10px;
+}
+.wrapper {
+  width: fit-content;
+  margin: auto;
+}
+.hints {
+  display: flex;
+  color: yellow;
+}
+.letterA{
+  width: 350px;
+  border: solid;
+  color: red;
+}
+.hint-btn,
+.reset-btn,
+.notif-btn {
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: blue;
+  color: whitesmoke;
+}
+.hint-btn:hover,
+.reset-btn:hover,
+.notif-btn:hover {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.alphabet {
+  width: 2rem;
+  height: 2rem;
+  background: blue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  margin: 3px;
+  cursor: pointer;
+}
+.alphabet:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+}
+.words{
+  border: none;
+}
