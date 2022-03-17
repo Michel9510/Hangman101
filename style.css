@@ -3,20 +3,16 @@ body {
   color: white;
   text-align: center;
   border: solid;
-  border-radius: 10px;
+  margin: 100px;
+
 }
 .wrapper {
   width: fit-content;
   margin: auto;
 }
-.hints {
+.hint-div {
   display: flex;
-  color: yellow;
-}
-.letterA{
-  width: 350px;
-  border: solid;
-  color: red;
+  color: whitesmoke;
 }
 .hint-btn,
 .reset-btn,
@@ -32,22 +28,52 @@ body {
   background-color: green;
   color: whitesmoke;
 }
-
-.alphabet {
+.reset-btn,
+.hint-btn {
+  margin-left: 100px;
+}
+.letter-div{
+  width: 400px;
+  border: solid;
+}
+.alpha {
   width: 2rem;
   height: 2rem;
   background: blue;
   color: whitesmoke;
   border: none;
-  border-radius: 10px;
+  border-radius: 4px;
   margin: 3px;
   cursor: pointer;
 }
-.alphabet:hover {
-  background-color: whitesmoke;
-  color: black;
+.alpha:hover {
+  background-color: green;
   border: none;
 }
-.words{
-  border: none;
+.disabled {
+  pointer-events: none;
+  background-color: darkgray;
+}
+
+.word-div {
+  display: inline-flex;
+}
+.word {
+  margin-right: 1.5rem;
+}
+
+.notif {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  width: 20rem;
+  padding: 20px 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none;
 }
