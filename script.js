@@ -25,7 +25,6 @@ const words = new Map([
   ["luffy", "Mugiwara! or Straw Hat Pirates captain"],
   ["swe", "Something you Want Eagerly, hint: CAPS"],
   ["nose", "You wake up everyday and see it but ignored it, what it is?"],
-  ["starwar", "May the Force be with you"],
   ["toretto", "I don't have friends. I got family."],
   ["shrek", "Ogres are like onions."],
   ["groot", "I am Groot."],
@@ -34,7 +33,7 @@ const words = new Map([
   ["katniss", "I volunteer as tribute."],
   ["einstein", "The true sign of intelligence is not knowledge but imagination."],
   ["einstein", "I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones."],
-  ["thor", "HE’S A FRIEND FROM WORK!"],
+  ["thor", "  God of thunder"],
 ]);
 
 //list of only keys from words
@@ -137,7 +136,7 @@ const letterPress = function () {
   this.classList.add('disabled');
 };
 
-// listening to letter buttons presses
+// listening to letter buttons presses`
 letters.forEach(btn => {
   btn.addEventListener('click', letterPress);
 });

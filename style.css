@@ -2,8 +2,8 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  border: solid;
-  margin: 100px;
+  border: none;
+  margin: 120px;
 
 }
 .wrapper {
@@ -33,6 +33,8 @@ body {
   margin-left: 100px;
 }
 .letter-div{
+  display: flex;
+  flex-wrap: wrap;
   width: 400px;
   border: solid;
 }
