@@ -18,8 +18,8 @@ Solve the puzzle before the hangman dies.
 Link to deployed app/site: https://michel9510.github.io/Hangman101/
 
 # MVP
-1. Guess the word using simplem words as input
-2. get some numbers for lives
+1. Guess the word using simple words as input
+2. get some numbers for lives- 5
 3. get a hint button
 4. get a reset bottom
 5. created a pop up to show up if player win or lose.
